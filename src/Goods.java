@@ -4,6 +4,13 @@ public class Goods {
     private int goodsQuatity;
     private double goodsPrice;
 
+    public Goods(String goodsID, String goodsName, int goodsQuatity, double goodsPrice) {
+        this.goodsID = goodsID;
+        this.goodsName = goodsName;
+        this.goodsQuatity = goodsQuatity;
+        this.goodsPrice = goodsPrice;
+    }
+
     public String getGoodsID() {
         return goodsID;
     }
